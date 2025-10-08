@@ -1,0 +1,13 @@
+p {
+    color: red;
+    font-size: 24px;
+}
+#myid {
+    color: blue;
+    font-family: 'lucida grande', 'lucida sans unicode';
+}
+
+/* this is my comment! */
+.myclass {
+    color: green;
+}
