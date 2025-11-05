@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            variables example
+        </title>
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            const myConst = 2;
+            let price = 200 % myConst;
+
+            document.write(price);
+         </script>
+
+         <!--
+NOTE: We are adding break tgs to add line breaks in HTML.
+-->
+<br>
+
+<script type="text/javascript">
+    let full_name = "Shoniyah Thomas";
+
+    // this will throw an error because you cannot redeclare a varible.
+    //const myconst = 40;
+
+    document.write(full_name)
+    document.write(200);
+</script>
+
+<div id="myText"></div>
+
+<script type="text/javascript">
+    let text = 'This is on one line, right? <br>';
+    let text2 = 'I should be on another line.'; //this is a comment.
+
+/*
+   Below is a process of joining two or more 
+   strings together
+   called concantenation
+*/
+    document.getElementById('myText').innerHTML = text + text2 + ' ' + 'Hello World!';
+
+</script>
+
+
+
+    </body>
+</html>
